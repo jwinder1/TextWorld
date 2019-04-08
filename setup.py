@@ -39,7 +39,7 @@ class CustomBuildPy(build_py):
 
 
 required_pkgs = [
-    "numpy>=1.13.1",
+    "numpy>=1.15.0",
     "tqdm>=4.17.1",
     "cffi>=1.0.0",
     "networkx>=2",
@@ -54,11 +54,11 @@ required_pkgs = [
     "selenium>=3.12.0",
     "greenlet==0.4.13",
     "gevent==1.3.5",
-    "pillow>=5.1.0",
     "pydot>=1.2.4",
-    "prompt_toolkit<2.1.0,>=2.0.0",
     "gym>=0.10.11"
 ]
+#    "pillow>=5.1.0",
+#    "prompt_toolkit<2.1.0,>=2.0.0",
 
 
 setup(
